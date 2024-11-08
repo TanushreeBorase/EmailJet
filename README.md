@@ -38,10 +38,8 @@ If you have 2-factor authentication enabled for your Gmail account, you will nee
 
 Clone this repository (if this project is in a repository):
 
-bash
-Copy code
-git clone <repository_url>
-cd <repository_name>
+python server.py
+
 Update Email Credentials:
 
 Replace the email_sender and email_password variables with your Gmail address and the app-specific password.
