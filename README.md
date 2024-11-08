@@ -36,11 +36,11 @@ Create an App-Specific Password:
 
 If you have 2-factor authentication enabled for your Gmail account, you will need to generate an App-Specific Password to log in via SMTP. You can generate one here.
 
-Clone this repository (if this project is in a repository):
+Clone this repository:
 
-python server.py
+On terminal : python server.py
 
-Update Email Credentials:
+# Update Email Credentials:
 
 Replace the email_sender and email_password variables with your Gmail address and the app-specific password.
 Prepare the Attachment:
@@ -55,4 +55,5 @@ bash
 Copy code
 python server.py
 If the email is successfully sent, the message Email sent successfully. will appear in the terminal. If there is an error, it will print the error message.
+
 ![image](https://github.com/user-attachments/assets/4c12aaa9-2cd7-47c1-b85b-b9528c42640a)
